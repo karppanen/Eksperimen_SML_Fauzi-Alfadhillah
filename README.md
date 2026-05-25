@@ -60,7 +60,7 @@ Jalankan script preprocessing:
 
 ```bash
 cd preprocessing
-python automate_Fauzi-Alfadhillah.py --input ../CustomerSegmentation_raw.csv --output-dir CustomerSegmentation_preprocessing
+python automate_Fauzi-Alfadhillah.py --input ../CustomerSegmentatiobn.csv --output-dir CustomerSegmentation_preprocessing
 ```
 
 Output akan tersimpan di:

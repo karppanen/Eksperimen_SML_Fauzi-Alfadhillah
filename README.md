@@ -60,7 +60,7 @@ Jalankan script preprocessing:
 
 ```bash
 cd preprocessing
-python automate_Fauzi-Alfadhillah.py --input ../CustomerSegmentatiobn.csv --output-dir CustomerSegmentation_preprocessing
+python automate_Fauzi-Alfadhillah.py --input ../CustomerSegmentation_raw.csv --output-dir CustomerSegmentation_preprocessing
 ```
 
 Output akan tersimpan di:
@@ -73,6 +73,3 @@ preprocessing/CustomerSegmentation_preprocessing/label_mapping.csv
 ## GitHub Actions
 
 Workflow `.github/workflows/preprocessing.yml` akan menjalankan preprocessing otomatis ketika ada push ke branch `main` atau ketika workflow dijalankan manual melalui `workflow_dispatch`.
-=======
-# Eksperimen_SML_Fauzi-Alfadhillah
-

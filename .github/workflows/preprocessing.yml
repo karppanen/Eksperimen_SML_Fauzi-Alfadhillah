@@ -20,12 +20,12 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas scikit-learn
+          pip install -r preprocessing/requirements.txt
 
       - name: Run preprocessing
         working-directory: preprocessing
         run: |
-          python automate_Fariz.py --input ../CustomerSegmentation_raw.csv --output-dir CustomerSegmentation_preprocessing
+          python automate_Fauzi-Alfadhillah.py --input ../CustomerSegmentation_raw.csv --output-dir CustomerSegmentation_preprocessing
 
       - name: Upload preprocessed dataset
         uses: actions/upload-artifact@v4
